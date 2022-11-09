@@ -1,0 +1,63 @@
+{
+  "name": "terminal-io",
+  "version": "1.0.0",
+  "description": "A react terminal tool",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "rm -rf build && babel src --out-dir build --copy-files",
+    "eject": "react-app-rewired eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salihkesepara/terminal-io"
+  },
+  "bugs": {
+    "url": "https://github.com/salihkesepara/terminal-io/issues"
+  },
+  "author": "Salih Kesepara <salihkesepara@gmail.com>",
+  "homepage": "https://salihkesepara.com",
+  "keywords": [
+    "terminal",
+    "react",
+    "terminal.io",
+    "tool"
+  ],
+  "private": false,
+  "main": "build/index.js",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}

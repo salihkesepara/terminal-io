@@ -1,0 +1,99 @@
+#terminal {
+  width: 100%;
+  color: #b89076;
+  font-family: cursor, monospace;
+  background: #211d1b;
+  cursor: text;
+}
+
+#terminal #board p {
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  line-height: 1.3em;
+}
+
+#terminal #board .error {
+  color: #a75564;
+}
+
+#terminal #board .white {
+  color: #fff;
+}
+
+#terminal #board .inherit,
+#terminal #board a {
+  color: #9c8394;
+}
+
+#terminal #board a {
+  text-decoration: inherit;
+}
+
+#terminal #board a:hover {
+  color: #211830;
+  text-decoration: underline;
+  background: #73abad;
+}
+
+#terminal #board a:focus {
+  outline: 0;
+}
+
+#terminal #board .description {
+  margin-left: 100px;
+}
+
+#terminal #board .typer {
+  color: #73abad;
+}
+
+#terminal #board .code-color {
+  color: #519975;
+}
+
+
+#terminal #command input {
+  position: absolute;
+  left: -2000px;
+}
+
+#terminal #command #cursor {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 10px;
+  max-width: 10px;
+  height: 1.5em;
+  color: #73abad;
+  font-size: 12px;
+  text-decoration: blink;
+  text-indent: -5px;
+  background-color: #73abad;
+  transform: translateY(4px);
+  animation: blinker 1s linear infinite;
+  opacity: 1;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#terminal #command #liner {
+  margin-top: -5px;
+}
+
+#terminal #command #liner #typer {
+  color: #73abad;
+}
+
+#terminal #command #liner::before {
+  content: "temp@linux-desktop:~$ ";
+  color: #519975;
+}
+
+#terminal #command .margin {
+  margin-left: 20px;
+}
