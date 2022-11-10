@@ -7,7 +7,7 @@
     "build": "rm -rf build && babel src --out-dir build --copy-files",
     "eject": "react-app-rewired eject",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint . --fix ."
   },
   "repository": {
     "type": "git",
