@@ -1,6 +1,6 @@
 {
   "name": "terminal-io",
-  "version": "1.0.0",
+  "version": "1.0.13",
   "description": "A react terminal tool",
   "scripts": {
     "start": "react-app-rewired start",
